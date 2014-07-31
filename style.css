@@ -1,0 +1,50 @@
+body {
+        font-family: Helvetica, Arial, FreeSans, sans-serif;
+}
+
+code {
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", 
+        "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", 
+        "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    background:#eee;
+    border:1px solid #ccc;
+    padding:0 5px;
+    color:#444;
+}
+
+code.block {
+    padding:5px;
+    display:block;
+    white-space:pre;
+    margin:1em;
+    overflow:auto;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+details {
+    padding:1em 1em 1em 2em;
+    background:#E0E0E0;
+    margin-bottom:1em;
+}
+
+summary {
+    margin-left: -1em;
+}
+
+summary h3{
+    margin:0;
+    display:inline-block;
+}
+
+h2 {
+    border-top: 4px solid #eee;
+}
+
+h1 + p {
+    margin-right: 3em;
+}
